@@ -45,11 +45,7 @@ BOARD_KERNEL_SEPARATED_DT := true
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8916
-TARGET_KERNEL_CONFIG := msm8916-squid_defconfig
-
-# Custom Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+TARGET_KERNEL_CONFIG := osprey_defconfig
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := osprey,osprey_umts,osprey_u2,osprey_ud2,osprey_uds,osprey_cdma,osprey_udstv,xt1540,xt1541,xt1542,xt1543,xt1544,xt1548,xt1550
