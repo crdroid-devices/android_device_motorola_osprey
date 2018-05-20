@@ -1,5 +1,10 @@
 # system.prop for osprey
 
+# Moto
+ro.product.device=osprey_uds
+ro.build.product=osprey_uds
+ro.mot.build.customerid=retasia
+
 # Audio
 persist.vendor.audio.fluence.mode=endfire
 persist.vendor.audio.fluence.voicecall=true
