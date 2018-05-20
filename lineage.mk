@@ -27,3 +27,11 @@ PRODUCT_MODEL := MotoG3
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := osprey
+
+# Build Fingerprint
+BUILD_FINGERPRINT := motorola/osprey_retasia_ds/osprey_uds:6.0.1/MPIS24.107-55-2-5/5:user/release-keys
+
+# BuildProp Values
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME="MotoG3" \
+    PRIVATE_BUILD_DESC="osprey_retasia_ds-user 6.0.1 MPIS24.107-55-2-5 5 release-keys"
